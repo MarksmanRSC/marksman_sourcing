@@ -255,8 +255,10 @@
                     e.src = 'https://www.google-analytics.com/analytics.js';
                     r.parentNode.insertBefore(e, r)
                 }(window, document, 'script', 'ga'));
-            ga('create', 'UA-XXXXX-X', 'auto');
+            ga('create', 'UA-48920803-3', 'auto');
+            ga('create', 'UA-78756712-3', 'auto', 'incoming');
             ga('send', 'pageview');
+            ga('incoming.send', 'pageview');
         </script>
         
         <script>
