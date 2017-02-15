@@ -17,8 +17,8 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
         <script defer src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
-        <script defer src="js/plugins.js"></script>
-        <script defer src="js/main.js"></script>
+        
+        
 
     </head>
     <body>
@@ -36,7 +36,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"> <img src="img/logo.jpg" alt="Marksman RSC" /> </a>
+                    <a class="navbar-brand" href="/"> <img src="img/marksman.jpg" alt="Marksman RSC" /> </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
