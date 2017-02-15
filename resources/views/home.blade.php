@@ -50,8 +50,8 @@
     }
 
     .front-main {
-        background-image: url("/img/bridge.jpg");
-        background-size: 'cover';
+        background-image: url("/img/bridge_resized.jpg");
+        background-size: scale;
     }
     
     @media (max-width: 600px) {
