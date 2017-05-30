@@ -223,9 +223,9 @@
 
 
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css?v=2">
+        <link rel="stylesheet" href="css/main.css?v=2">
+        <link rel="stylesheet" href="css/style.css?v=2">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
         <script defer src="js/vendor/modernizr-2.8.3.min.js"></script>
