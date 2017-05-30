@@ -47,50 +47,58 @@
                             <a href="/">Home</a>
                         </li>
 
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Outsource Return Handling <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="/return-handling">How it Works</a>
-                                </li>
-                                <li>
-                                    <a href="/serviced-products">Products and Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="/recover-value">Recover Value from Returned Items</a>
-                                </li>
-                                <li>
-                                    <a href="/technicians">Our Trained Technicians</a>
-                                </li>
-
-                            </ul>
-                        </li>
-
                         <li>
-                            <a href="/dropshipping">Drop Shipping</a>
+                            <a href="/about-us">About Us</a>
                         </li>
-
                         <li>
-                            <a href="/amazon-fba-prep">FBA Prep</a>
+                            <a href="/services">Services</a>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other Services <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="/return-handling">Return Handling</a>
-                                </li>
-                                <li>
-                                    <a href="/amazon-fba-prep">FBA Preparation</a>
-                                </li>
-                                <li>
-                                    <a href="/discounted-shipping">Discounted Shipping</a>
-                                </li>
-                                <li>
-                                    <a href="/dropshipping#shipping-services">Mail Forwarding</a>
-                                </li>
 
-                            </ul>
-                        </li>
+
+                        {{--<li class="dropdown">--}}
+                            {{--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Outsource Return Handling <span class="caret"></span></a>--}}
+                            {{--<ul class="dropdown-menu">--}}
+                                {{--<li>--}}
+                                    {{--<a href="/return-handling">How it Works</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/serviced-products">Products and Pricing</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/recover-value">Recover Value from Returned Items</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/technicians">Our Trained Technicians</a>--}}
+                                {{--</li>--}}
+
+                            {{--</ul>--}}
+                        {{--</li>--}}
+
+                        {{--<li>--}}
+                            {{--<a href="/dropshipping">Drop Shipping</a>--}}
+                        {{--</li>--}}
+
+                        {{--<li>--}}
+                            {{--<a href="/amazon-fba-prep">FBA Prep</a>--}}
+                        {{--</li>--}}
+                        {{--<li class="dropdown">--}}
+                            {{--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other Services <span class="caret"></span></a>--}}
+                            {{--<ul class="dropdown-menu">--}}
+                                {{--<li>--}}
+                                    {{--<a href="/return-handling">Return Handling</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/amazon-fba-prep">FBA Preparation</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/discounted-shipping">Discounted Shipping</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/dropshipping#shipping-services">Mail Forwarding</a>--}}
+                                {{--</li>--}}
+
+                            {{--</ul>--}}
+                        {{--</li>--}}
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
@@ -124,21 +132,19 @@
                 @yield('cta')
 
             </div>
-
+            <br/>
         </div>
+
 
         <footer>
             <div class="container-fluid">
                 <div class="col-sm-3">
-                    <h2>Marksman</h2>
-                    <h3>Refurbishment Service Center</h3>
+                    <h2>Ask Idea Sourcing</h2>
+                    <h3>Product Sourcing Made Easy</h3>
                     <p>
-                        Marksman RSC &reg; strives to help reduce costs associated
-                        with returned merchandise.
+                        Ask Idea Sourcing provides quality, affordable sourcing services for eCommerce sellers.
                     </p>
-                    <p>
-                        <a target="_blank" title="Marksman RSC BBB Business Review" href="https://www.bbb.org/cincinnati/business-reviews/electronic-equipment-and-suppliers-service-and-repair/marksman-rsc-in-cincinnati-oh-90015484/#bbbonlineclick"> <img alt="Marksman RSC BBB Business Review" style="border: 0;" src="https://seal-cincinnati.bbb.org/seals/blue-seal-160-90-marksman-rsc-90015484.png"> </a>
-                    </p>
+
                 </div>
                 <div class="col-sm-6">
                     <h2>Quick Links</h2>
@@ -146,25 +152,10 @@
                     <div class="col-sm-6">
                         <ul class="quick-links">
                             <li class="head">Services</li>
-                            <li>
-                                <a href="/return-handling">Outsource Return Handling</a>
-                            </li>
-                            <li>
-                                <a href="/amazon-fba-prep">Amazon FBA Prep</a>
-                            </li>
-                            <li>
-                                <a href="/dropshipping">Drop Shipping</a>
-                            </li>
-                            <li>
-                                <a href="/dropshipping#shipping-services">Mail Forwarding</a>
-                            </li>
-                            <li>
-                                <a href="/discounted-shipping">Discounted Shipping</a>
-                            </li>
-                            <li>
-                                <a href="/recover-value">Liquidation Alternative</a>
-                            </li>
-                            <li>
+                             <li>
+                                 <a href="/about-us">Our Team</a>
+                             </li>
+                             <li>
                                 <a href="/contact-us">Contact Us</a>
                             </li>
                         </ul>

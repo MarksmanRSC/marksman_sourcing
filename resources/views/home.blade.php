@@ -50,7 +50,7 @@
     }
 
     .front-main {
-        background-image: url("/img/bridge_resized.jpg");
+        /*background-image: url("/img/bridge_resized.jpg");*/
         background-size: scale;
     }
     
@@ -60,115 +60,153 @@
             font-size: 1.5em;
         }
     }
+
+    #videoDiv {
+        width: 100%;
+        /*height: 360px; */
+        height: 100vh;
+        position: relative;
+    }
+    #videoBlock,#videoMessage {width: 100%;
+        /*height: 360px; */
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #videoBlock video {
+        height: 100%;
+        width: 100%;
+    }
+
+    #videoMessage *{
+        padding:0.4em;
+        margin:0;
+        margin-top: 4em;
+    }
+    #videoMessage {
+        text-shadow: 2px 2px 2px #000000;
+        color:white;
+        z-index:99
+    }
+    #videoMessage h1{
+        font-size: 2em;
+        color:#ffffff;
+        text-align:center;
+    }
+    #videoMessage h2{
+        font-size: 1.5em;
+        color:#ffffff;
+        text-align:center;
+    }
+    #videoMessage h3{
+        font-size: 1.0em;
+        color:#ffffff;
+        text-align:center;
+    }
+    .videoClick {text-align:center}
+    .videoClick a{color:white;background-color:rgba(241, 241, 241, 0.25);font-size: 1.7em;cursor:pointer;cursor:hand}
+
 </style>
 
-<div class="flex-center position-ref full-height row front-main">
-    <div class="content">
 
-        <div class='highlight highlight-light'>
-            <h1>We Handle Your Returns</h1>
-            <h1>You Focus on Growing Your Business</h1>
-        </div>
-        <div class="title m-b-md">
-            <h1>Marksman RSC</h1>
-        </div>
+<div id="videoDiv">
+    <div id="videoBlock">
+        {{--<video preload="preload" id="video" autoplay="autoplay" loop="loop" playsinline>--}}
+        <video preload="preload" id="video" autoplay="autoplay" loop="loop" muted>
 
-        <div class="links ">
-            <a href="/return-handling">Return Handling</a>
-            <a href="/dropshipping">Dropshipping</a>
-            <a href="/fba-prep">FBA Prep</a>
-            <a href="/shipping">Shipping</a>
-            <!-- <a href="/about-us">About Us</a> -->
-        </div>
+            <source src="video1.mp4" type="video/mp4">
 
+            <source src="video2.mp4" type="video/mp4">
+        </video>
+        <div id="videoMessage">
+            <h1>Ask Idea Sourcing</h1>
+            <h2>Providing affordable services to Amazon sellers...</h2>
+            <h2>that make sourcing from overseas comfortable and easy. </h2>
+            <p class="videoClick" >
+                <a href="#">Click here to get started.</a>
+            </p>
+        </div>
     </div>
 </div>
 
 <div class="container">
-    <h1>Ecommerce Solutions</h1>
+    <h1>Sourcing Made Easy</h1>
     <p>
-        Marksman RSC offers after-sales support solutions, including
-        outsourced return handling, asset recovery, and product
-        inspection services as well as the tools to get your products to market
-        faster.
+        Need text
     </p>
 
-    <div class="col-sm-4 card">
-        <div class="sym">
-            <img class="sym" src="img/returns.png" />
+    <h1>Which is right for me?</h1>
+    <div class="row">
+
+
+        <div class="col-sm-4 card">
+            <div class="card-header">
+                <div class="image-wrapper">
+                    <img src="img/icons/supplier_qualification.svg" />
+                </div>
+                <strong>
+                    Phase 1
+                </strong>
+            </div>
+            <div class="card-content">
+                {{--<h1 class="card-title">Title</h1>--}}
+                <div class="card-modal">
+                    <h2 class="card-title">Explain wtf</h2>
+                    <p>
+                        Explain wtf
+                    </p>
+                </div>
+            </div>
         </div>
-        <h2>Return Handling</h2>
-        <p>
-            Outsource your return handling, reverse logistics, and asset recovery
-            to Marksman RSC. 
-        </p>
-        <p>
-            Unlike other solutions we can <b>inspect, test and recondition</b> your
-            returned merchandise, improving your return-to-market and ROI.
-        </p>
-        <div class="cta pull-down">
-            <a class="cta" href="/return-handling">Learn More</a>    
+
+        <div class="col-sm-4 card">
+            <div class="card-header">
+                <div class="image-wrapper">
+                    <img src="img/icons/supplier_qualification.svg" />
+                </div>
+                <strong>
+                    Phase 2
+                </strong>
+            </div>
+            <div class="card-content">
+                {{--<h1 class="card-title">Title</h1>--}}
+                <div class="card-modal">
+                    <h2 class="card-title">Explain wtf</h2>
+                    <p>
+                        Explain wtf
+                    </p>
+                </div>
+            </div>
         </div>
-        
+        <div class="col-sm-4 card">
+            <div class="card-header">
+                <div class="image-wrapper">
+                    <img src="img/icons/supplier_qualification.svg" />
+                </div>
+                <strong>
+                    ???
+                </strong>
+            </div>
+            <div class="card-content">
+                {{--<h1 class="card-title">Title</h1>--}}
+                <div class="card-modal">
+                    <h2 class="card-title">Explain wtf</h2>
+                    <p>
+                        Explain wtf
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-    <div class="col-sm-4 card">
-        <div class="sym">
-            <img class="sym" src="img/fba_prep.png" />
-        </div>
-        <h2>FBA Prep</h2>
-        <p>
-            Empower your Amazon FBA business with our FBA prep services. Our
-            FBA prep services allow you to focus on what matters: sales,
-            while we worry about SKU stickers and Amazon's packaging requirements.
-        </p>
-        <p>
-            
-        </p>
-        
-        <div class="cta pull-down">
-            <a class="cta" href="/amazon-fba-prep">Learn More</a>    
-        </div>        
-    </div>
-    <div class="col-sm-4 card">
-        <div class="sym">
-            <img class="sym" src="img/dropship.png" />
-        </div>
-        <h2>Drop Shipping</h2>
-        <p>
-            We also offer drop shipping services from our Ohio warehouse located
-            in Cincinnati. Our custom inventory management system allows
-            you to track your products all the way through sourcing, sales, and
-            returns.
-        </p>
-        <p></p>
-        <div class="cta pull-down">
-            <a class="cta" href="/dropshipping">Learn More</a>    
-        </div>
-    </div>
-    
-    
-    
+    <div class="cta"><a class="cta" href="">Get started now</a></div>
+
     <div class="clearfix"></div>
 
-    <h1>Return Handling Solutions</h1>
-    <p>
-        Marksman RSC is a leading provider of outsourced return handling
-        and return-to-market services for ecommerce businesses. Our innovative
-        reverse-logistics offerings increase your ROI by reducing the overhead
-        costs incurred by returned merchandise and helping you get your
-        products back to market faster.
-    </p>
-    <h2>Liquidation Alternative: Refurbishment</h2>
-    <p>
-        Our services provide a cost-effective alternative to liquidation
-        and recycling of returned products. We can inspect, test, and
-        recondition your returned merchandise enabling you to reclaim
-        the value in returned items.
 
-    </p>
-    <p class="text-center">
-        <a class='cta' href="/recover-value">View Case Study</a>
-    </p>
 </div>
 
 @endsection
