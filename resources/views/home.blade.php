@@ -144,7 +144,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/supplier_qualification.svg" />
+                    <img src="img/icons/column1.svg" />
                 </div>
                 <strong>
                     Phase 1
@@ -164,7 +164,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/supplier_qualification.svg" />
+                    <img src="img/icons/column2.svg" />
                 </div>
                 <strong>
                     Phase 2
@@ -183,7 +183,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/supplier_qualification.svg" />
+                    <img src="img/icons/column3.svg" />
                 </div>
                 <strong>
                     ???
