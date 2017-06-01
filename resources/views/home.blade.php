@@ -2,58 +2,7 @@
 
 @section('content')
 <style>
-    .full-height {
-        height: 100vh;
-    }
 
-    .flex-center {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .position-ref {
-        position: relative;
-    }
-
-    .top-right {
-        position: absolute;
-        right: 10px;
-        top: 18px;
-    }
-
-    .content {
-        text-align: center;
-    }
-
-    .title {
-        font-size: 3em;
-    }
-
-    .links > a {
-        color: #eee;
-        padding: 0 25px;
-        font-size: 12px;
-        font-weight: 600;
-        letter-spacing: .1rem;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-
-    .links {
-        background-color: #000;
-    }
-
-    .m-b-md {
-        margin-bottom: 30px;
-    }
-
-    .front-main {
-        /*background-image: url("/img/bridge_resized.jpg");*/
-        background-size: scale;
-    }
-    
     @media (max-width: 600px) {
         .title {
             
@@ -69,10 +18,11 @@
     }
     #videoBlock,#videoMessage {width: 100%;
         /*height: 360px; */
-        height: 100%;
+        /*height: 100%;*/
         position: absolute;
         top: 0;
         left: 0;
+        /*overflow-y: hidden;*/
     }
 
     #videoBlock video {
@@ -80,10 +30,16 @@
         width: 100%;
     }
 
+    #videoMessage {
+        background: rgba(0, 0,0, .3);
+        height: 100%;
+    }
+
     #videoMessage *{
         padding:0.4em;
         margin:0;
         margin-top: 4em;
+
     }
     #videoMessage {
         text-shadow: 2px 2px 2px #000000;
@@ -116,9 +72,9 @@
         {{--<video preload="preload" id="video" autoplay="autoplay" loop="loop" playsinline>--}}
         <video preload="preload" id="video" autoplay="autoplay" loop="loop" muted>
 
-            <source src="video1.mp4" type="video/mp4">
+            <source src="video.mp4" type="video/mp4">
 
-            <source src="video2.mp4" type="video/mp4">
+            {{--<source src="video2.mp4" type="video/mp4">--}}
         </video>
         <div id="videoMessage">
             <h1>Ask Idea Sourcing</h1>
