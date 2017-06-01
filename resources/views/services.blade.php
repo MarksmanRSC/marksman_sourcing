@@ -2,18 +2,42 @@
 
 @section('content')
 
+    <style>
+        #test {
+            background-image: url("img/services.jpg");
+            background-size: cover;
+        }
+
+        #testInner {
+            background: rgba(25,25,25,.3) !important;
+            min-height: 20em;
+        }
+
+        #testInner h1, #testInner h2, #testInner p {
+            padding-top: 2em;
+            color: #fff;
+        }
+    </style>
+
+    <div class="row" id="test">
+        <div class="container jumbotron" id="testInner">
+
+            <h1 class="display-3">Ask Idea Sourcing</h1>
+            {{--<h2 class="display-3 pull-right">...From concept to market</h2>--}}
+            <p class="lead">
+               We provide affordable services to Amazon sellers that make sourcing from overseas comfortable and easy.
+            </p>
+
+        </div>
+    </div>
+
 
 
 <div class="container">
 
-    <div class="jumbotron jumbotron-fluid">
 
-        <h1 class="display-3">Sourcing, from concept to market</h1>
-        <p class="lead">
-            Some text here maybe?
-        </p>
 
-    </div>
+
 
     <div class="row">
         <div class="col-sm-4 card">

@@ -78,8 +78,10 @@
         </video>
         <div id="videoMessage">
             <h1>Ask Idea Sourcing</h1>
-            <h2>Providing affordable services to Amazon sellers...</h2>
-            <h2>that make sourcing from overseas comfortable and easy. </h2>
+
+            {{--<h2>Providing affordable services to Amazon sellers...</h2>--}}
+            {{--<h2>that make sourcing from overseas comfortable and easy. </h2>--}}
+            <h2>Your affordable, reliable, and transparent sourcing agent.</h2>
             <p class="videoClick" >
                 <a href="#">Click here to get started.</a>
             </p>
@@ -109,10 +111,16 @@
             <div class="card-content">
                 {{--<h1 class="card-title">Title</h1>--}}
                 <div class="card-modal">
-                    <h2 class="card-title">Explain wtf</h2>
-                    <p>
-                        Explain wtf
-                    </p>
+                    <h2 class="card-title">Sourcing Research</h2>
+
+                    <ul>
+                        <li>Product Consultation</li>
+                        <li>Supplier Assessment</li>
+                        <li>Sampling</li>
+                        <li>Industry Regulations</li>
+                        <li>Supplier Qualification</li>
+                    </ul>
+
                 </div>
             </div>
         </div>
@@ -129,10 +137,13 @@
             <div class="card-content">
                 {{--<h1 class="card-title">Title</h1>--}}
                 <div class="card-modal">
-                    <h2 class="card-title">Explain wtf</h2>
-                    <p>
-                        Explain wtf
-                    </p>
+                    <h2 class="card-title">Go-to-Market</h2>
+                    <ul>
+                        <li>Procurement</li>
+                        <li>Payment</li>
+                        <li>Order Monitoring</li>
+                        <li>Supply Chain Management</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -148,10 +159,10 @@
             <div class="card-content">
                 {{--<h1 class="card-title">Title</h1>--}}
                 <div class="card-modal">
-                    <h2 class="card-title">Explain wtf</h2>
-                    <p>
-                        Explain wtf
-                    </p>
+                    <h2 class="card-title">End-to-End Supply Chain</h2>
+
+                        We handle your sourcing project all the way from concept to market and beyond.
+
                 </div>
             </div>
         </div>
