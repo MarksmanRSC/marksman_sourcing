@@ -19,7 +19,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/product_consult.svg" />
+                    <img src="img/icons/product_consultation.svg" />
                 </div>
                 <strong>
                     Step 1: Product Consultation
@@ -68,7 +68,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/sampling.svg" />
+                    <img src="img/icons/Sampling.svg" />
                 </div>
                 <strong>
                     Step 3: Sampling (Optional)
@@ -91,7 +91,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/regulations.svg" />
+                    <img src="img/icons/industry_regulations.svg" />
                 </div>
                 <strong>
                     Step 4: Industry Regulations
@@ -131,7 +131,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/product_consult.svg" />
+                    <img src="img/icons/procurement.svg" />
                 </div>
                 <strong>
                     Step 6: Procurement
@@ -157,7 +157,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/product_consult.svg" />
+                    <img src="img/icons/payment.svg" />
                 </div>
                 <strong>
                     Step 7: Payment
@@ -177,7 +177,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/product_consult.svg" />
+                    <img src="img/icons/order_monitoring.svg" />
                 </div>
                 <strong>
                     Step 8: Order Monitoring
@@ -197,7 +197,7 @@
         <div class="col-sm-4 card">
             <div class="card-header">
                 <div class="image-wrapper">
-                    <img src="img/icons/product_consult.svg" />
+                    <img src="img/icons/logistics.svg" />
                 </div>
                 <strong>
                     Step 9: Logistics
