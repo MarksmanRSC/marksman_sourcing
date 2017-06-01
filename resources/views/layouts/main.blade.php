@@ -36,7 +36,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/"> <img src="img/marksman.jpg" alt="Marksman RSC" /> </a>
+                    <a class="navbar-brand" href="/"> <img src="img/askidea_bulb.png" alt="Ask Idea Sourcing" /> </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -139,7 +139,9 @@
         <footer>
             <div class="container-fluid">
                 <div class="col-sm-3">
-                    <h2>Ask Idea Sourcing</h2>
+                    <div align="center">
+                        <img src="img/askidea.svg" alt="" style="max-height: 10em"/>
+                    </div>
                     <h3>Product Sourcing Made Easy</h3>
                     <p>
                         Ask Idea Sourcing provides quality, affordable sourcing services for eCommerce sellers.
