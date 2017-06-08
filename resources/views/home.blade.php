@@ -99,21 +99,21 @@
     <div class="row">
 
 
-        <div class="col-sm-4 card">
-            <div class="card-header">
+        <div class="col-sm-4 card ">
+            <div class="card-header dark-primary-color">
                 <div class="image-wrapper">
                     <img src="img/icons/column1.svg" />
                 </div>
-                <strong>
+                <strong class="divider-color text-primary-color">
                     Phase 1
                 </strong>
             </div>
-            <div class="card-content">
+            <div class="card-content light">
                 {{--<h1 class="card-title">Title</h1>--}}
                 <div class="card-modal">
-                    <h2 class="card-title">Sourcing Research</h2>
+                    <h2 class="card-title secondary-text-color">Sourcing Research</h2>
 
-                    <ul>
+                    <ul class="secondary-text-color">
                         <li>Product Consultation</li>
                         <li>Supplier Assessment</li>
                         <li>Sampling</li>
@@ -126,19 +126,19 @@
         </div>
 
         <div class="col-sm-4 card">
-            <div class="card-header">
+            <div class="card-header dark-primary-color">
                 <div class="image-wrapper">
                     <img src="img/icons/column2.svg" />
                 </div>
-                <strong>
+                <strong class="divider-color text-primary-color">
                     Phase 2
                 </strong>
             </div>
             <div class="card-content">
                 {{--<h1 class="card-title">Title</h1>--}}
                 <div class="card-modal">
-                    <h2 class="card-title">Go-to-Market</h2>
-                    <ul>
+                    <h2 class="card-title secondary-text-color">Go-to-Market</h2>
+                    <ul class="secondary-text-color">
                         <li>Procurement</li>
                         <li>Payment</li>
                         <li>Order Monitoring</li>
@@ -148,18 +148,18 @@
             </div>
         </div>
         <div class="col-sm-4 card">
-            <div class="card-header">
+            <div class="card-header dark-primary-color">
                 <div class="image-wrapper">
                     <img src="img/icons/column3.svg" />
                 </div>
-                <strong>
+                <strong class="divider-color text-primary-color">
                     ???
                 </strong>
             </div>
             <div class="card-content">
                 {{--<h1 class="card-title">Title</h1>--}}
-                <div class="card-modal">
-                    <h2 class="card-title">End-to-End Supply Chain</h2>
+                <div class="card-modal secondary-text-color">
+                    <h2 class="card-title secondary-text-color">End-to-End Supply Chain</h2>
 
                         We handle your sourcing project all the way from concept to market and beyond.
 

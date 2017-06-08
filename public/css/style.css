@@ -1,4 +1,13 @@
 
+.dark-primary-color    { background: #0288D1 !important; }
+.default-primary-color { background: #03A9F4; }
+.light-primary-color   { background: #B3E5FC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #536DFE; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
 .navbar-brand {
     padding: 0;
 }
@@ -57,10 +66,17 @@ body {
    font-size: 1.15em;
 }
 
+#main-content .container {
+    box-shadow: 0px 0px 2px 2px rgba(128,128,128,0.5);
+
+    padding-top: 50px;
+    background-color: #fff;
+}
+
 #price-table .row {
     min-height: 2em;
-    
-    
+
+
 }
 
 #price-table:nth-child(odd) {
@@ -144,7 +160,7 @@ a.cta {
     height: 2em;
     padding: .5em;
     border-radius: .25em;
-    background-color: #F89319;
+    background-color: #536DFE;
     vertical-align: middle;
     line-height: 1;
     text-transform: uppercase;
@@ -156,46 +172,10 @@ a.cta {
     font-size: 1.25em;
 }
 
-.hero {
-    background-size: cover;
-    
-    width: 100%;
-    min-height: 50vh;    
-}
+/*a.cta:hover {*/
+    /*background-color: #B3E5FC;*/
+/*}*/
 
-div.hero:last-child {
-    vertical-align: bottom;
-    margin-bottom: 0;
-}
-
-#fba-prep-hero{
-    background-image: url("/img/amazon-boxes.jpg");
-}
-
-#dropship-hero {
-    background-image: url("/img/cincinnati.jpg");
-}
-
-#returns-hero {
-    background-image: url("/img/returned-items-mess.jpg");
-}
-
-#serviceable {
-    background-image: url("/img/relist-resell.jpg");
-    
-}
-
-#main-content .container {
-    box-shadow: 0px 0px 2px 2px rgba(128,128,128,0.5);
-    
-    padding-top: 50px;
-    background-color: #fff;
-}
-
-.sidebar {
-    border-left: 1px solid #eee;
-    background-color: #eee;
-}
 
 .quick-links {
     list-style: none;
@@ -255,7 +235,7 @@ div.hero:last-child {
 }
 
 .image-wrapper {
-    border: 4px solid orange;
+    /*border: 4px solid #536DFE;*/
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
@@ -263,12 +243,14 @@ div.hero:last-child {
     min-width: 0;
     padding: 1em;
     margin: .25em;
+    background: #fff;
 }
 
 .card .card-header strong {
     text-transform: uppercase;
     display: block;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    border-bottom: 2px solid #BDBDBD;
 }
 
 /*.card-modal {*/
@@ -279,63 +261,14 @@ div.hero:last-child {
     display: none;
 }
 
+.truncate {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
-
-/*.card {*/
-    /*border: 1px solid #eee;*/
-    /**/
-/*}*/
-
-/*.card h2 {*/
-    /*text-align: center;*/
-    /*font-size: 1.25em;*/
-/*}*/
-
-/*.card {*/
-    /*padding-top: .5em;*/
-/*}*/
-
-/*.card p {*/
-    /*padding: .25em;*/
-/*}*/
-
-/*.card a.cta {*/
-    /*text-align: center;*/
-/*}*/
-
-/*.card:hover {*/
-    /*!*box-shadow: 5px 5px 5px 5px rgba(128,128,128,.5);*!*/
-    /*!*color: #eee;*!*/
-    /*background-color: #000;*/
-    /**/
-/*}*/
-
-/*.card:hover > div.sym {*/
-    /*background-color: #fff;*/
-    /*border: .25em solid #F89319;*/
-/*}*/
-
-/*.card div.cta {*/
-    /*position: relative;*/
-    /*bottom: 0;*/
-/*}*/
-
-/*div.sym {*/
-    /*text-align: center;*/
-    /*border-radius: 5em;*/
-    /*border: .35em solid #eee;*/
-    /**/
-    /*box-shadow: 5px 5px 5px rgba(128,128,128,.5);*/
-    /**/
-    /*height: 100px;*/
-    /*width: 100px;*/
-    /*padding: 1em;*/
-    /*margin: auto;*/
-/*}*/
-
-/*div.sym > img.sym {*/
-    /*height: 90%;*/
-    /*width: 90%;*/
-    /*display: inline-block;*/
-/*}*/
+.card-footer {
+    text-align: center;
+}
 
